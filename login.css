@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+	background-image: url('https://www.ufmg.br/espacodoconhecimento/wp-content/uploads/2021/11/on%C3%A7a-pintada-1024x683.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+#login-container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+#login-form button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#login-form button:hover {
+    background-color: #2980b9;
+}
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
